@@ -3,7 +3,9 @@ package main
 import "fmt"
 
 func main() {
+	var choice int
 	menu()
+	fmt.Scan(&choice)
 }
 
 func menu() {
